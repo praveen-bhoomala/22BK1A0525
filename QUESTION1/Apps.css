@@ -1,0 +1,51 @@
+.App{
+  text-align: center;
+  padding: 50px;
+  font-family: Arial,sans-serif;
+  background-color: #f4f4f4;
+  min-height:100vh;
+}
+h1{
+  color: #333;
+}
+form{
+  margin-top: 20px;
+}
+input{
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+button{
+  padding:10px 15px;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #005fa3;
+}
+.res{
+  margin-top: 20px;
+}
+.res a{
+  font-weight: bold;
+  color:#0077cc;
+  text-decoration: none;
+
+}
+.res a:hover{
+  text-decoration: underline;
+
+}
+.error{
+  color:red;
+  margin-top: 10px;
+}
+
